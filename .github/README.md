@@ -1,7 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-partnercentral-selling`](https://www.npmjs.com/package/@aws-sdk/client-partnercentral-selling/v/3.1043.0).
+[`@aws-sdk/client-partnercentral-selling`](https://www.npmjs.com/package/@aws-sdk/client-partnercentral-selling/v/3.1044.0).
+
+Refer to the links below for detailed documentation:
+- All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
+- @aws-sdk/client-partnercentral-selling - [https://cloud-sdk-builds.github.io/?sdk=client-partnercentral-selling](https://cloud-sdk-builds.github.io/?sdk=client-partnercentral-selling)
+- @aws-sdk/client-partnercentral-selling v3.1044.0 - [https://cloud-sdk-builds.github.io/?sdk=client-partnercentral-selling&version=3.1044.0](https://cloud-sdk-builds.github.io/?sdk=client-partnercentral-selling&version=3.1044.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-partnercentral-selling@3.1043.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-partnercentral-selling@3.1044.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-G16v66cXbW4j/MWbJTLmfo/R990kJdSckTiA6QG/nYUiF2fg9xUdZF6xjqAp4ekR
+sha384-BLITBlp1sDxWuc7I90+5GaqhIREV/1cvlsZVnLJ3liTHmf6/fNC+ERx6nfKwAdY0
 ```
 
 ### 📌 Latest Version
@@ -61,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-partnercentral-selling": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-partnercentral-selling@3.1043.0/index.min.mjs"
+            "@aws-sdk/client-partnercentral-selling": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-partnercentral-selling@3.1044.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-partnercentral-selling@3.1043.0/index.min.mjs": "sha384-G16v66cXbW4j/MWbJTLmfo/R990kJdSckTiA6QG/nYUiF2fg9xUdZF6xjqAp4ekR"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-partnercentral-selling@3.1044.0/index.min.mjs": "sha384-BLITBlp1sDxWuc7I90+5GaqhIREV/1cvlsZVnLJ3liTHmf6/fNC+ERx6nfKwAdY0"
         }
       }
 </script>
@@ -81,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-partnercentral-selling": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-partnercentral-selling@3.1043.0/index.min.mjs"
+                        "@aws-sdk/client-partnercentral-selling": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-partnercentral-selling@3.1044.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-partnercentral-selling@3.1043.0/index.min.mjs": "sha384-G16v66cXbW4j/MWbJTLmfo/R990kJdSckTiA6QG/nYUiF2fg9xUdZF6xjqAp4ekR"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-partnercentral-selling@3.1044.0/index.min.mjs": "sha384-BLITBlp1sDxWuc7I90+5GaqhIREV/1cvlsZVnLJ3liTHmf6/fNC+ERx6nfKwAdY0"
                     }
                   }
             </script>
@@ -151,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1043.0`)
+* Always pin to a specific version (`@3.1044.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,9 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-partnercentral-selling/blob/refs/tags/3.1043.0/LICENSE
+https://github.com/cloud-sdk-builds/client-partnercentral-selling/blob/refs/tags/3.1044.0/LICENSE
 ```
 
 ---
-
-If you want, I can next give you a **legally safest naming pattern** for all repositories (very important for trademark safety, especially avoiding “aws-sdk” in repo names while still keeping discoverability).
